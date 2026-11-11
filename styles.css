@@ -1,0 +1,124 @@
+/* Remove unnecessary spacing */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 20px 30px;
+    min-height: 150px;
+}
+
+/* School Logo */
+.navbar-brand img {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* Navigation Links */
+.navbar-nav {
+    gap: 15px;
+}
+
+.nav-link {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: #d1d1d1 !important;
+}
+
+/* Change color when hovering */
+.nav-link:hover {
+    color: white !important;
+}
+
+/* Search Bar */
+.form-control {
+    font-size: 20px;
+    padding: 15px;
+    width: 400px;
+}
+
+.btn-primary {
+    font-size: 20px;
+    padding: 12px 25px;
+}
+
+/* Background Section */
+.home-background {
+    min-height: 650px;
+    padding: 65px 25px;
+
+    /* Add your school/building image here */
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* White Content Box */
+.content-box {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #20252a;
+
+    padding: 30px;
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+}
+
+/* Main Heading */
+.content-box h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/* Paragraphs */
+.content-box p {
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+/* Location Heading */
+.content-box h4 {
+    font-size: 26px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+/* Mobile-Friendly Design */
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 15px;
+        min-height: auto;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .form-control {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .content-box h1 {
+        font-size: 32px;
+    }
+
+    .content-box p {
+        font-size: 18px;
+    }
+
+    .home-background {
+        padding: 30px 15px;
+    }
+}
